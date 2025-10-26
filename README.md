@@ -64,7 +64,7 @@ cd knowledge-base
 
 从 新手入门指南 开始
 
-📁 项目结构
+## 📁 项目结构
 text
 knowledge-base/
 ├── docs/                    # 文档文件
@@ -80,7 +80,8 @@ knowledge-base/
 │   ├── assets/            # 共享游戏资源
 │   └── tools/             # 开发工具
 └── templates/             # 项目和文档模板
-🤝 参与贡献
+
+## 🤝 参与贡献
 我们欢迎所有成员的贡献！以下是你可以提供帮助的方式：
 
 报告问题
@@ -116,7 +117,7 @@ git commit -m "docs: 添加 Unity 动画教程"
 
 修改代码时更新相关文档
 
-📚 资源库
+## 📚 资源库
 学习资料
 Unity 学习路径 - 结构化的 Unity 教程
 
