@@ -1,6 +1,6 @@
 # 🎮 重庆工商大学CO科创团队 游戏开发方向
 
-> **面向 [重庆工商大学] 游戏开发爱好者的协作知识库与项目中心**
+> **面向  重庆工商大学CO科创团队-游戏开发方向 成员的协作知识库与项目中心**
 
 [English](./README.md) | **中文**
 
@@ -48,39 +48,50 @@
 - [Git](https://git-scm.com/downloads)
 - [Visual Studio](https://visualstudio.microsoft.com/) 或 [VS Code](https://code.visualstudio.com/)
 
-### 快速设置
+### 克隆知识库到本地
 
-1. **加入组织**
-   ```bash
-   # 你将收到加入我们 GitHub 组织的邀请链接
-克隆知识库
-
-bash
+使用以下 git 命令克隆知识库  
+   
+```bash
 git clone https://github.com/[你的组织名称]/knowledge-base.git
 cd knowledge-base
-探索学习路径
+```
 
-访问我们的 Wiki 查看结构化教程
+### 不知道什么是 git? 不会使用 git?  
+请查阅我们的 [Wiki]() 以快速入门 git的使用!
+  
+请查阅 Wiki 找到自己感兴趣的内容！或者查阅 docs/tutorials/ 目录下的教程！  
 
-从 新手入门指南 开始
 
 ## 📁 项目结构
+
 ```text
 knowledge-base/
 ├── docs/                  # 文档文件
-│   ├── tutorials/         # 分步指南
-│   ├── references/        # API 和技术参考
-│   └── best-practices/    # 开发指南
+│   ├── tutorials/         # 指导手册
+│   ├── notes/             # 成员的开发笔记
+│   ├── errors-solutions/  # 常见的错误与解决方案
+│   └── templates/         # 模板
 ├── projects/              # 活跃和归档的项目
-│   ├── game-jam-2024/     # 限时游戏开发挑战项目
+│   ├── game-jam/          # 限时游戏开发挑战项目
 │   ├── long-term/         # 长期开发项目
 │   └── prototypes/        # 实验性概念项目
-├── resources/             # 共享资源和工具
-│   ├── scripts/           # 可复用代码片段
-│   ├── assets/            # 共享游戏资源
-│   └── tools/             # 开发工具
-└── templates/             # 项目和文档模板
+└── resources/             # 共享资源和工具
+    ├── scripts/           # 可复用代码片段
+    ├── assets/            # 共享游戏资源
+    └── plugins/           # 插件
 ```
+  
+### docs 文件夹
+  
+docs 文件夹中包含所有的指导文档和成员的笔记以及常见错误的解决方案, 你可以查看其中的文档，并对你认为不够完善的文档提交 pull request,  
+经过审核后，我们会对文档内容进行修改
+  
+- **tutorials**: tutorials 文件夹中包含所有的指导文档，内部的文件夹结构会根据不同的板块内容来增添 ，此文件夹内容由 core-teams 成员进行审核维护， 请 All-members 成员提交 pull request 申请修改
+- **notes**: notes 文件夹用于保存所有成员的笔记，每个人都可以在此文件夹中创建一个自己的文件夹用来存放个人笔记, 请以 "[your github's name]'s notes" 的格式命名。 该文件夹中的内容可供 All-members 成员自主维护个人分支, 在执行 pull request 时，会对其中的内容进行审核， 并依据个人意愿将部分笔记添加整合至 tutorials 文件夹中
+- **errors-solutions** errors-solutions 文件夹会记录常见问题的产生原因与解决方案
+  
+### 
 
 ## 🤝 参与贡献
 我们欢迎所有成员的贡献！以下是你可以提供帮助的方式：
